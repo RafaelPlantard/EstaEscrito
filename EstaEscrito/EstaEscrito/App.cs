@@ -12,8 +12,10 @@ namespace EstaEscrito
 				Content = new StackLayout
 				{
 					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
+					Children =
+					{
+						new Label
+						{
 							XAlign = TextAlignment.Center,
 							Text = "Welcome to Xamarin Forms!"
 						}
